@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="quiz.css">
+
+    <title>Quiz</title>
+</head>
+
+<body>
+
+    <div class="start-screen">
+        <button id="start-button">Start</button>
+    </div>
+
+    <div id="display-container">
+        <div class="header">
+            <div class="number-of-count">
+                <span class="number-of-question">1 of 10 questions</span>
+            </div>
+            <div class="timer-div">
+                <img src="stopwatch.jpg"
+                    width="20px" />
+                <span class="time-left">10s</span>
+            </div>
+        </div>
+
+        <div id="container">
+
+            1. What are the primitive data types in JavaScript?
+
+            a) String, Boolean, Null, Undefined
+            b) Integer, Float, Char, Object
+            c) Number, Object, Array, Function
+            d) True, False, Null, NaN
+
+            2. Which keyword is used to declare a constant variable in JavaScript?
+
+            a) let
+            b) var
+            c) const
+            d) constant
+
+            3. How do you declare a function expression in JavaScript?
+
+            a) function myFunction() {}
+            b) const myFunction = function() {}
+            c) const function myFunction() {}
+            d) function = myFunction() {}
+
+            4. What is the key difference between let and const in variable declaration?
+
+            a) let is block-scoped, and const is function-scoped.
+            b) let is constant, and const is variable.
+            c) let allows reassignment, and const does not.
+            d) let is for strings, and const is for numbers.
+
+            5. How do you access the first element of an array named myArray?
+
+            a) myArray[0]
+            b) myArray.first()
+            c) myArray.getFirst()
+            d) myArray.element(1)
+
+            6. What is the primary purpose of the this keyword in JavaScript?
+
+            a) Referring to the current instance of an object.
+            b) Creating a new variable in the local scope.
+            c) Accessing the global scope.
+            d) Identifying data types.
+
+            7. Which of the following is an example of closure in JavaScript?
+
+            a) A loop iterating through an array.
+            b) A function accessing variables from its outer scope.
+            c) Declaring variables within a function.
+            d) An if statement inside a function.
+
+            8. What is the purpose of promises in asynchronous JavaScript?
+
+            a) To handle synchronous operations.
+            b) To replace callbacks in asynchronous code.
+            c) To define constant values.
+            d) To create loops.
+
+            9. How do you convert a callback-based asynchronous function to use Promises in JavaScript?
+
+            a) Wrapping the function in a Promise constructor.
+            b) Using await keyword inside the function.
+            c) Using the callbackToPromise utility.
+            d) Adding a then method after the function call.
+
+            10. In JavaScript, what is the purpose of the async keyword in a function declaration?
+
+            a) To indicate that the function returns a promise.
+            b) To make the function execute asynchronously.
+            c) To define a new variable in the local scope.
+            d) To handle errors in the function
+
+        </div>
+
+        
+        <button id="next-button">Next</button>
+    </div>
+
+    </div>
+
+    <div class="score-container hide">
+
+        <button id="restart">Restart</button>
+        <div id="user-score">Demo Score</div>
+    </div>
+
+    <script src="quiz.js"></script>
+</body>
+
+</html>
